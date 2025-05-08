@@ -9,7 +9,7 @@ from tqdm import tqdm
 from rank_bm25 import BM25Okapi
 
 # Configure OpenAI client to use remote vLLM server
-client = OpenAI(base_url="https://dashscope.aliyuncs.com/compatible-mode/v1", api_key="	sk-d9ac16aea14a408bbf7f85e2f3c47984")
+client = OpenAI(base_url="https://dashscope.aliyuncs.com/compatible-mode/v1", api_key="your api key") # replace api_key to your own aliyun api_key
 
 # --- Enhanced Chunking and Retrieval ---
 def semantic_chunking(context, chunk_size=300, overlap=100):
