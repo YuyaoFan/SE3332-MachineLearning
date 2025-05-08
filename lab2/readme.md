@@ -20,6 +20,49 @@ This project explores the effectiveness of combining LLMs with RAG for answering
 
 ## 🛠 Installation
 ```bash
-git clone https://github.com/YuyaoFan/multi-hop-qa-rag.git
-cd multi-hop-qa-rag
+git clone https://github.com/YuyaoFan/SE3323-MachineLearning/lab2.git
 pip install -r requirements.txt
+```
+
+## 🚀 Usage
+- Baseline System:
+```bash
+python main.py
+```
+- Improved System:
+```bash
+python main_improved.py
+```
+
+## 📈 Evaluation Metrics
+**Exact Match (EM)**: Strict exact answer matching
+
+**F1 Score**: Token-level overlap between prediction and ground truth
+
+Expected baseline performance:
+EM > 0.3 | F1 > 0.4
+
+## 💡 Key Features
+Hybrid retrieval (BM25 + semantic matching)
+
+Context-aware chunking with sentence boundaries
+
+Two implementations:
+
+Baseline: Llama-3.1-8B-Instruct
+
+Improved: Qwen-Plus with enhanced prompting
+
+## 🛠️ Improvement Strategies
+Enhanced prompt engineering
+
+Better error handling for Yes/No questions
+
+Context re-reading mechanism
+
+Answer validation instructions
+
+## ⚠️ Important Notes
+- Replace API endpoints/keys in code for production use
+- Results may vary based on model availability
+
