@@ -10,8 +10,8 @@ from PIL import ImageEnhance, ImageOps
 import time
 
 client = OpenAI(
-    base_url="http://47.242.151.133:24576/v1/",
-    api_key="ml2025",
+    base_url="base_url",
+    api_key="api_key",
 )
 
 
