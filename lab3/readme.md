@@ -1,8 +1,8 @@
 # Lab3: Document Visual Question Answering with Vision-Language Models
 
 ## Author
-范禹尧  
-学号: 522070910015
+Yuyao Fan
+stu.id: 522070910015
 
 ## Overview
 This project explores the performance of an open-source Vision-Language Model (Qwen2.5-VL-3B-Instruct) on document-based VQA tasks, specifically on DocVQA and MP-DocVQA datasets. Various optimization strategies were tested to improve model accuracy.
